@@ -14,7 +14,7 @@ class ResultViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        resultLabel.text = String(correctAnswer)
         // Do any additional setup after loading the view.
     }
 
@@ -23,9 +23,9 @@ class ResultViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func back() {
-        
+        self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
     }
-    
+
 
     /*
     // MARK: - Navigation
