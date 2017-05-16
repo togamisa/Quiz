@@ -36,7 +36,11 @@ class QuizViewController: UIViewController {
         choiceQuiz()
     }
     func choiceQuiz() {
-        
+        let tmpArray = quizArray[0] as! [Any]
+        quizTextView.text = tmpArray[0] as! String
+        choiceButton1.setTitle(tmpArray[1] as? String, for: .normal )
+        choiceButton2.setTitle(tmpArray[2] as? String, for: .normal )
+        choiceButton3.setTitle(tmpArray[3] as? String, for: .normal )
     }
     
     override func didReceiveMemoryWarning() {
