@@ -14,6 +14,9 @@
 		B5F954821EC1D1ED00333BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F954801EC1D1ED00333BB9 /* LaunchScreen.storyboard */; };
 		B5F9548D1EC1D1ED00333BB9 /* QulzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9548C1EC1D1ED00333BB9 /* QulzTests.swift */; };
 		B5F954981EC1D1ED00333BB9 /* QulzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F954971EC1D1ED00333BB9 /* QulzUITests.swift */; };
+		B5F954A61EC1D25800333BB9 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F954A51EC1D25800333BB9 /* QuizViewController.swift */; };
+		B5F954A81EC1D26A00333BB9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F954A71EC1D26A00333BB9 /* ResultViewController.swift */; };
+		B5F954AA1EC1D57200333BB9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F954A91EC1D57200333BB9 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		B5F954931EC1D1ED00333BB9 /* QulzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QulzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F954971EC1D1ED00333BB9 /* QulzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QulzUITests.swift; sourceTree = "<group>"; };
 		B5F954991EC1D1ED00333BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F954A51EC1D25800333BB9 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		B5F954A71EC1D26A00333BB9 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		B5F954A91EC1D57200333BB9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				B5F9547E1EC1D1ED00333BB9 /* Assets.xcassets */,
 				B5F954801EC1D1ED00333BB9 /* LaunchScreen.storyboard */,
 				B5F954831EC1D1ED00333BB9 /* Info.plist */,
+				B5F954A51EC1D25800333BB9 /* QuizViewController.swift */,
+				B5F954A71EC1D26A00333BB9 /* ResultViewController.swift */,
+				B5F954A91EC1D57200333BB9 /* logo.png */,
 			);
 			path = Qulz;
 			sourceTree = "<group>";
@@ -235,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5F954AA1EC1D57200333BB9 /* logo.png in Resources */,
 				B5F954821EC1D1ED00333BB9 /* LaunchScreen.storyboard in Resources */,
 				B5F9547F1EC1D1ED00333BB9 /* Assets.xcassets in Resources */,
 				B5F9547D1EC1D1ED00333BB9 /* Main.storyboard in Resources */,
@@ -262,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5F954A61EC1D25800333BB9 /* QuizViewController.swift in Sources */,
 				B5F9547A1EC1D1ED00333BB9 /* ViewController.swift in Sources */,
 				B5F954781EC1D1ED00333BB9 /* AppDelegate.swift in Sources */,
+				B5F954A81EC1D26A00333BB9 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
